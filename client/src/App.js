@@ -3,11 +3,6 @@ import { BrowserRouter as Router, Route, Switch  } from "react-router-dom"
 import ReactNotifications from "react-notifications-component";
 import {Header , Footer} from "./component/header-footer";
 // import LandingPage from './view/LandingPage'
-import LandingPage from "./view/LandingPage";
-import Black from "./view/Black";
-import Admin from "./view/Admin";
-import Owner from "./view/Owner";
-import PrivateSale from "./view/Private_sale";
 import Vesting from "./view/Vesting";
 import React, { Component }  from 'react';
 
