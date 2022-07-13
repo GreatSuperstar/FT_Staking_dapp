@@ -104,6 +104,9 @@ body{
   border: none;
   cursor: pointer;
 }
+.wallet_connect_btn:hover {
+  background-color: #F1C0E8;
+}
 
 .content-head{
   font-size: 22px;

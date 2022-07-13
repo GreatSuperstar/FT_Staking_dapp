@@ -200,10 +200,12 @@ h6 {
               box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.15); }
 
 .btn-primary {
-  background-image: -webkit-gradient(linear, left top, right top, from(#3967f5), color-stop(51%, #77f3fd), to(#3967f5));
-  background-image: linear-gradient(to right, #3967f5 0%, #77f3fd 51%, #3967f5 100%);
-  border: none;
+
+  color: black;
+  border: 3px solid #fff;
+  background-color: #fff;
   outline: none;
+  border-radius: 40px;
   background-size: 200%;
   transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -211,7 +213,10 @@ h6 {
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease; }
   .btn-primary:hover {
-    color: #fff;
+    background-color: #F1C0E8 !important;
+    border-color: #fff;
+
+    color: black;
     background-position: right center; }
   .btn-primary.sm-btn {
     padding: 0 32px; }
@@ -502,6 +507,7 @@ h6 {
 .header.fixed-header {
   /* background: rgba(12, 3, 47, 0.8); */
   background-color: initial;
+  backdrop-filter: blur(10px);
   opacity: 50%;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -1079,10 +1085,11 @@ h6 {
   padding-top: 120px; } */
 
 .xs-count-down {
-  background: url(../images/how-works/ico_end_bg.png) no-repeat center center/cover;
+  background-color: initial;
+  border: 4px solid #fff;
   position: relative;
   padding: 33px 20px;
-  border-radius: 10px;
+  border-radius: 40px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   overflow: hidden;
@@ -2765,4 +2772,12 @@ a.cencel-preloader {
 .social_link .social_icon {
   width: 10px;
   height: 10px;
+}
+
+h4{
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
+}
+
+.xs-count-down .content {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
 }
